@@ -1,0 +1,15 @@
+[
+ {
+   "id":"puente",
+   "src":"assets/image-big.png"
+ },
+{
+   "id":"cafe",
+   "src":"assets/image-big3.jpg"
+ },
+{
+   "id":"mesa",
+   "src":"assets/image-big2.png"
+ }
+
+]

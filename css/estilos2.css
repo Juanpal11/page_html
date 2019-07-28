@@ -1,5 +1,5 @@
 body{
-    font-family:'Source Sanas Pro', sans-serif;
+    font-family: 'Lora', serif;;
     margin: 0%;
 }
 
@@ -8,9 +8,14 @@ body{
     /* display: flex; */
 }
 .texto_imagen{
-    text-align-last: center;
     color: aliceblue;
     position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    
 }
 
 .hero_image{
@@ -64,11 +69,18 @@ ul{
     flex-wrap: inherit;
 }
 
+.container_imagen{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+
 
 .home{
     background: #fafafa;
     /* padding: 20px; */
-    padding:10px 5px 0px 40px;s
+    padding:10px 5px 0px 40px;
 }
 
 
@@ -97,6 +109,10 @@ ul{
     width: 500px;
     margin-left: 0%;
     margin-top: 40px;
+}
+.project_description{
+    color: #40443F;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1,
