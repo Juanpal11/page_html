@@ -102,7 +102,7 @@ ul{
 }
 
 .project_details{
-    text-align: center;
+    text-align-last: center;
    
 }
 
@@ -136,7 +136,9 @@ h1{
 h1 strong{
     color: #026fff;
 }
-
+h2{
+    letter-spacing: .1px;
+}
 hr{
     width: 40%;
     height: 1px;
