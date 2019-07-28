@@ -102,7 +102,7 @@ ul{
 }
 
 .project_details{
-    text-align-last: center;
+    text-align: center;
    
 }
 
@@ -114,6 +114,8 @@ ul{
 .project_description{
     color: #40443F;
     font-family: 'Quicksand', sans-serif;
+    text-align-last: center;
+    text-align: justify;
 }
 
 h1,
