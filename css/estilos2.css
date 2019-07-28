@@ -1,0 +1,127 @@
+body{
+    font-family:'Source Sanas Pro', sans-serif;
+    margin: 0%;
+}
+
+.hero{
+    align-items: center;
+    /* display: flex; */
+}
+.texto_imagen{
+    text-align-last: center;
+    color: aliceblue;
+    position: absolute;
+}
+
+.hero_image{
+    max-width: 100%;
+    height: auto;
+}
+ol,
+ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+.header{
+    background-color: white;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+
+}
+
+.container{
+    /* border: 1px red solid; */
+    width: 1000px;
+    /* margin: 0 auto; */
+    margin-right: 90px;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+
+.home{
+    background: #fafafa;
+    /* padding: 20px; */
+    padding:10px 5px 0px 40px;s
+}
+
+
+.project{
+ 
+    text-align: justify;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+
+.project_url{
+    margin: 10px 0px;
+    text-decoration: #0DCABC;
+    text-decoration-line: underline;
+    
+}
+
+.project_details{
+    text-align-last: center;
+}
+
+.project_imageContainer{
+    width: 500px;
+    margin-left: 0%;
+    margin-top: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400 /* "normal" */;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0;
+
+}
+h1 strong{
+    color: #026fff;
+}
+
+hr{
+    width: 40%;
+    height: 1px;
+    background-color: #309724;
+}
