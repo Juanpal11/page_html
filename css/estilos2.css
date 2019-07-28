@@ -55,8 +55,8 @@ ul{
 .container{
     /* border: 1px red solid; */
     width: 1000px;
-    /* margin: 0 auto; */
-    margin-right: 90px;
+    margin: 0 auto;
+    /* margin-right: 90px; */
     display: inherit;
     align-items: inherit;
     justify-content: inherit;
