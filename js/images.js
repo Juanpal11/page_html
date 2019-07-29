@@ -26,6 +26,7 @@ function changeImg(){
     }
     setTimeout("changeImg()", 3000);
     let currentImg = data[imageId]
+    console.log(currentImg.src);
     
 }
 window.onload = firstLoad;
