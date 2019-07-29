@@ -15,9 +15,9 @@ function firstLoad(){
     
 }
 
-
+let imageId= 0;
 function changeImg(){
-    let imageId= 0;
+    
     document.slide.src = data[imageId].src;
     if (imageId < data.length -1){
         imageId++;        
