@@ -1,0 +1,15 @@
+[
+{
+   "id":"photo1",
+   "src":"assets/image-big.png"
+ },
+{
+   "id":"photo2",
+   "src":"assets/image-big2.png"
+ },
+{
+   "id":"photo3",
+   "src":"assets/image-big3.jpg"
+ }
+
+]

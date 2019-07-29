@@ -1,19 +1,31 @@
-var i = 0;
-var images = [];
-var time = 3000;
+let data = [];
 
-images[0]= "assets/image-big.png"
-images[1]= "assets/image-big2.png"
-images[2]= "assets/image-big3.jpg"
+function firstLoad(){
+    fetch('js/imagesrc.json')
+    .then(function(response){
+        return response.json();
+    })
+    .then(function(jsonData){
+        data = jsonData
+        changeImg()    
+    })
+    .catch(function (err) {
+        console.log("An error occurred. We couldn't load the images");
+    })
+    
+}
+
 
 function changeImg(){
-    document.slide.src = images[i];
-    if (i < images.length -1){
-        i++;
+    let imageId= 0;
+    document.slide.src = data[imageId].src;
+    if (imageId < data.length -1){
+        imageId++;        
     }else{
-        i=0;
+        imageId=0;
     }
-    setTimeout("changeImg()", time);
-
+    setTimeout("changeImg()", 3000);
+    let currentImg = data[imageId]
+    
 }
-window.onload = changeImg;
+window.onload = firstLoad;

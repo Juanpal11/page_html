@@ -1,0 +1,14 @@
+[
+ {
+  "id":"carousel",
+  "src":"assets/image-big.png"
+ },
+ {
+  "id":"carousel2",
+  "src":"assets/image-big2.png"
+ },
+ {
+  "id":"carousel3",
+  "src":"assets/image-big3.jpg"
+ }
+]
