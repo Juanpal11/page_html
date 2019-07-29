@@ -15,9 +15,9 @@ function firstLoad(){
     
 }
 
+
 let imageId= 0;
 function changeImg(){
-    
     document.slide.src = data[imageId].src;
     if (imageId < data.length -1){
         imageId++;        
@@ -26,7 +26,5 @@ function changeImg(){
     }
     setTimeout("changeImg()", 3000);
     let currentImg = data[imageId]
-    console.log(currentImg.src);
-    
 }
 window.onload = firstLoad;
